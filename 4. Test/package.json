@@ -5,11 +5,11 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^9.2.2"
+    "jest": "^27.5.1"
   }
 }
