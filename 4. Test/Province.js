@@ -1,4 +1,5 @@
-class Province {
+import Producer from './Producer.js';
+export default class Province {
   constructor(doc) {
     this._name = doc.name;
     this._producers = [];
